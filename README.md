@@ -10,7 +10,6 @@ forkCollection.js
 
 2 enter keys after the "cool" will move this line here.
 One enter key hit will not move the wanted line down.  
-
 *two spaces and an Enter key hit will bring this down, and it looks much nicer*
 
 *Hit Enter 2 times is for making the text not full of text, easier to read*
