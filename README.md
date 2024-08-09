@@ -7,4 +7,6 @@ createEnvironmentVariables.js
 forkCollection.js
 
 **3. Markdown is cool**
+
 2 enter keys after the "cool" will move this line here.
+One enter key hit will not move the wanted line down.
