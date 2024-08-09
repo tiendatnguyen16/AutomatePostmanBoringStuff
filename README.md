@@ -1,12 +1,15 @@
 This is a README file.
 
 **1. Create variables for the currently selected environment, the values will be collection's Uid (which are needed for submitting Postman challenges)**  
-createEnvironmentVariables.js
+*createEnvironmentVariables.js*
 
 **2. Automatically fork all collections or selective collections from a public workspace**  
-forkCollection.js
+*forkCollection.js*
 
-**3. Markdown is cool**
+**3. Markdown is cool**  
+Use "*" to surround the text that you want to make it *Italic*  
+Use "**" to surround the text that you want to make it **Bold**.
+
 
 2 enter keys after the "cool" will move this line here.
 One enter key hit will not move the wanted line down.  
