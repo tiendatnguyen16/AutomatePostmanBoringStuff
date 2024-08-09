@@ -20,7 +20,6 @@ pm.sendRequest({
             const collections = response.json().collections;
             console.log(collections);
 
-
             // Loop through the collections and set environment variables for days 8 to 30
             // This method will only work if the order of the collection is the same, for example, the 8th collection will be the 8th item in the collections property of the response
             for (let day = 8; day <= 30; day++) {
