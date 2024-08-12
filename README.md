@@ -3,6 +3,9 @@ This is a README file.
 **1. Create variables for the currently selected environment, the values will be collection's Uid (which are needed for submitting Postman challenges)**  
 *createEnvironmentVariables.js*
 
+**IMPORTANT**
+*This script must be run using Postman pre-request or post-response script, it means we need to create pre-request or post-response script, then run the request in Postman, not using VS Studio Code.*
+
 **2. Automatically fork all collections or selective collections from a public workspace**  
 *forkCollection.js*
 
