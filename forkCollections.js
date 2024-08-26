@@ -43,13 +43,13 @@ async function main() {
 
     console.log(`Total Collections Found: ${totalCollections}`);
 
-    if (totalCollections < 31) {
-      console.log(`Only ${totalCollections} collections found. Cannot fork from 11th to 31st.`);
-      return;
-    }
+    // if (totalCollections < 31) {
+    //   console.log(`Only ${totalCollections} collections found. Cannot fork from 11th to 31st.`);
+    //   return;
+    // }
 
     // Fork collections from the 11th to the 31st
-    for (let i = 10; i <= 30; i++) { // <= 30 to include the 31st collection
+    for (let i = 1; i < totalCollections; i++) { 
       const collection = collections[i];
       console.log(`Attempting to fork Collection UID: ${collection.uid} (${collection.name})`);
       const forkedCollection = await forkCollection(collection.uid, DESTINATION_WORKSPACE_ID);
