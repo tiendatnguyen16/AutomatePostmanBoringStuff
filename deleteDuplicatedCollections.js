@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const API_KEY = 'PMAK-668b482c89b08d00013a0780-38afe2fd58843dbfa1219c1bc75575ce69'; // Replace with your actual API key
+const API_KEY = '<your API Key>'; // Replace with your actual API key
 //const SOURCE_WORKSPACE_ID = '8df6c5ba-1e69-4e8b-967e-382ce4130eeb'; // Replace with your source workspace ID
 const DESTINATION_WORKSPACE_ID = '9ebef898-7c0a-4fcb-8afa-377443f73021'; // Replace with your destination workspace ID 
 
