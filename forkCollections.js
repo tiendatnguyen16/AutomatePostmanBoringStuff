@@ -1,15 +1,4 @@
-/* 
-const axios = require('axios');
 
-// Replace with your Postman API key
-const apiKey = 'PMAK-668b482c89b08d00013a0780-38afe2fd58843dbfa1219c1bc75575ce69';
-
-// Replace with the public workspace ID
-const publicWorkspaceId = 'f1c6b0a9-b930-4165-9aa4-f655dd7051b5';
-
-// Replace with the destination workspace ID
-const destinationWorkspaceId = '37d13948-c437-4443-8fda-47e70266908c';
-*/
 
 const axios = require('axios');
 
