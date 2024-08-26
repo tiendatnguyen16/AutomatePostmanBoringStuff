@@ -9,6 +9,7 @@ const headers = {
   'Content-Type': 'application/json',
 };
 
+// Fetches all collections in the specified workspace.
 async function getCollections(workspaceId) {
   try {
     const response = await axios.get(`https://api.getpostman.com/collections?workspace=${workspaceId}`, { headers });
@@ -19,6 +20,7 @@ async function getCollections(workspaceId) {
   }
 }
 
+// Deletes a collection by its UID
 async function deleteCollection(collectionUid) {
   const url = `https://api.getpostman.com/collections/${collectionUid}`;
   try {
@@ -30,6 +32,11 @@ async function deleteCollection(collectionUid) {
   }
 }
 
+/*
+Iterates through the collections in the destination workspace.
+Uses a dictionary (uniqueCollections) to keep track of unique collection names.
+If a collection name already exists in uniqueCollections, the duplicated collection is deleted.
+*/
 async function removeDuplicates(workspaceId) {
   try {
     const collections = await getCollections(workspaceId);
