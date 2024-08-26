@@ -13,6 +13,10 @@ This is a README file.
 Use "*" to surround the text that you want to make it *Italic*  
 Use "**" to surround the text that you want to make it **Bold**.
 
+**4. Delete duplicated collections for a workspace**
+
+deleteDuplicatedCollections.js
+
 
 2 enter keys after the "cool" will move this line here.
 One enter key hit will not move the wanted line down.  
