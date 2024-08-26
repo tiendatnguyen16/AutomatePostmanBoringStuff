@@ -2,6 +2,9 @@
 
 const axios = require('axios');
 
+/**
+DO NOT SHARE YOUR API KEY PUBLICLY EVER!!!!!!!
+*/
 const API_KEY = '<your API Key>'; // Replace with your actual API key
 const SOURCE_WORKSPACE_ID = '<source workspace ID>'; // Replace with your source workspace ID
 const DESTINATION_WORKSPACE_ID = '<destination workspace ID>'; // Replace with your destination workspace ID
