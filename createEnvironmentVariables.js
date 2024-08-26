@@ -1,5 +1,5 @@
 // Replace with your actual API key
-const apiKey = 'PMAK-668b482c89b08d00013a0780-38afe2fd58843dbfa1219c1bc75575ce69';
+const apiKey = '<your API Key>';
 // Workspace ID
 const workspaceId = '37d13948-c437-4443-8fda-47e70266908c';
 // Base URL for the Postman API
