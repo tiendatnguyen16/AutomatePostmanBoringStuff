@@ -6,7 +6,7 @@ This is a README file.
 **IMPORTANT**
 *This script must be run using Postman pre-request or post-response script, it means we need to create pre-request or post-response script, then run the request in Postman, not using VS Studio Code.*
 
-**2. Automatically fork all collections or selective collections from a public workspace**  
+**2. Automatically fork all collections or selected collections from a public workspace**  
 *forkCollection.js*
 
 **3. Markdown is cool**  
